@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 成都的春天，很早
+categories: blog
 description: 我很努力，想要触碰到你
 ---
 

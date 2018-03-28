@@ -2,6 +2,7 @@
 layout:         post
 title:          Laravel中使用ajax
 description:    在laravel中使用ajax遇到的token问题.
+categories: laravel
 keywords: laravel ,ajax
 --- 
  

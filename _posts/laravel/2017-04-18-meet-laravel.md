@@ -2,6 +2,7 @@
 layout:         post
 title:          与 Laravel 的缘分
 description:    与laravel的相遇.
+categories: laravel
 keywords: laravel
 --- 
 

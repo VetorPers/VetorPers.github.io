@@ -1,27 +1,27 @@
 - sitename: GitHub
-  name: mzlogin
-  url: https://github.com/mzlogin
+  name: VetorPers
+  url: https://github.com/VetorPers
+
+- sitename: segmentfault
+  name: VetorPers
+  url: https://segmentfault.com/u/vtr123
 
 - sitename: 掘金
-  name: mzlogin
-  url: http://gold.xitu.io/user/570ddaeb2e958a005c63b2da
+  name: VetorPers
+  url: https://juejin.im/user/59e6c6b5518825579d131662
 
-- sitename: LinkedIn
-  name: mazhuang
-  url: https://www.linkedin.com/in/mazhuang
+- sitename: 简书
+  name: VetorPers
+  url: https://www.jianshu.com/u/acecc64f2a33
 
 - sitename: 博客
-  name: 码志
-  url: http://mazhuang.org
+  name: VetorPers
+  url: https://vetor.win
 
 - sitename: 微博
-  name: mzlogin
-  url: http://weibo.com/mzlogin
+  name: VetorPers
+  url: http://weibo.com/VetorPers
 
 - sitename: 知乎
-  name: mzlogin
-  url: http://www.zhihu.com/people/mzlogin
-
-- sitename: 豆瓣
-  name: 壮哥不胖
-  url: http://www.douban.com/people/freedim
+  name: VetorPers
+  url: http://www.zhihu.com/people/VetorPers
