@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://mazhuang.org
+url: https://vetor.win
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+title: VetorPers
+subtitle: "坚持不懈"
+description: "vetorpers's blog"
+keywords: vtr, vv, vetor
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -15,12 +15,12 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: zkh360.com
-organization_url: http://www.zkh360.com
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+author: Vetor Pers
+organization: rzhd
+organization_url: http://www.rzthinkmore.com/
+github_username: VetorPers
+location: Chengdu, China
+email: 506969463@qq.com
 
 # ---------------- #
 #    Navigation    #
