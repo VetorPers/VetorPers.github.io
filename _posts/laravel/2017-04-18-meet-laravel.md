@@ -7,7 +7,7 @@ keywords: laravel
 
 ### 一直努力的菜鸟 ###
 
-  <img src="/vtr/resources/vtr.png" alt="VTR" class="img-center" width="580px" />
+  <img src="/images/posts/laravel/vtr.png" alt="VTR" class="img-center" width="580px" />
 
   毕业快有两年的光景。从机械师助理(其实就是一个厂里的技术员)，学会了几个html标签，就提着包怀着高工资的梦想就去到这个城市也有一年好多的时间了。在这个遍地是码农的世纪，我很亲切的给自己贴了一个"一直努力的菜鸟"的标签。
 
