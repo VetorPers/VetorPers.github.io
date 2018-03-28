@@ -98,8 +98,8 @@ gitment:
         client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: vetorpers
-    repo: vtr
+    owner: VetorPers
+    repo: VetorPers.github.io
     clientID: a303f24d569a0e2ec7c9
     clientSecret: 3953430212f4652bf7c0a9473efcc820a12f8ba8
 # 在使用其它评论组件时可点击显示 Disqus
