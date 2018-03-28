@@ -1,19 +1,33 @@
-- name: Software Engineer Keywords
+- name: php
   keywords:
-      - Java
-      - C++
-      - Python
-      - Design Patterns
+      - laravel
+      - phalcon
+      - yii
+      - thinkphp
 
-- name: Mobile Developer Keywords
+- name: 数据库
   keywords:
-      - Android
-      - Reverse Engineering
+      - mysql
+      - redis
 
-- name: Windows Developer Keywords
+- name: 测试
   keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+      - phpunit
+
+- name: 服务器
+  keywords:
+      - apache
+      - nginx
+      - linux
+
+- name: 前端相关
+  keywords:
+      - html
+      - css
+      - javascript
+      - nodejs
+
+- name: python
+  keywords:
+      - scrapy
+      - django
