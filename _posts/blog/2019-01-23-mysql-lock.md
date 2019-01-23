@@ -34,6 +34,7 @@ long_query_time 查询超过多少秒才记录
 1.查看慢查询相关参数
 
 > mysql>show variables like 'slow_query%';
+
 > mysql>show variables like 'long_query_time';
 
 2.设置方法
