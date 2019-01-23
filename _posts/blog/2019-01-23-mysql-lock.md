@@ -33,22 +33,10 @@ long_query_time 查询超过多少秒才记录
 三、设置步骤
 1.查看慢查询相关参数
 
-复制代码
 mysql> show variables like 'slow_query%';
-+---------------------------+----------------------------------+
-| Variable_name             | Value                            |
-+---------------------------+----------------------------------+
-| slow_query_log            | OFF                              |
-| slow_query_log_file       | /mysql/data/localhost-slow.log   |
-+---------------------------+----------------------------------+
 
 mysql> show variables like 'long_query_time';
-+-----------------+-----------+
-| Variable_name   | Value     |
-+-----------------+-----------+
-| long_query_time | 10.000000 |
-+-----------------+-----------+
-复制代码
+
 2.设置方法
 方法一：全局变量设置
 将 slow_query_log 全局变量设置为“ON”状态
@@ -70,24 +58,7 @@ long_query_time = 1
 3.重启MySQL服务
 
 service mysqld restart
-4.查看设置后的参数
 
-复制代码
-mysql> show variables like 'slow_query%';
-+---------------------+--------------------------------+
-| Variable_name       | Value                          |
-+---------------------+--------------------------------+
-| slow_query_log      | ON                             |
-| slow_query_log_file | /usr/local/mysql/data/slow.log |
-+---------------------+--------------------------------+
-
-mysql> show variables like 'long_query_time';
-+-----------------+----------+
-| Variable_name   | Value    |
-+-----------------+----------+
-| long_query_time | 1.000000 |
-+-----------------+----------+
-复制代码
 四、测试
 1.执行一条慢查询SQL语句
 
