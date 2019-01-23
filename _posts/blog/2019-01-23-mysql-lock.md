@@ -34,7 +34,6 @@ long_query_time 查询超过多少秒才记录
 1.查看慢查询相关参数
 
 > mysql> show variables like 'slow_query%';
-
 > mysql> show variables like 'long_query_time';
 
 2.设置方法
@@ -51,10 +50,13 @@ long_query_time 查询超过多少秒才记录
 方法二：配置文件设置
 修改配置文件my.cnf，在[mysqld]下的下方加入
 
+ ```
 [mysqld]
 slow_query_log = ON
 slow_query_log_file = /usr/local/mysql/data/slow.log
 long_query_time = 1
+```
+
 3.重启MySQL服务
 
 service mysqld restart
