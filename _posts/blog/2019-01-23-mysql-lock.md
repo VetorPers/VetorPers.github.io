@@ -33,9 +33,9 @@ long_query_time 查询超过多少秒才记录
 #### 设置步骤
 1.查看慢查询相关参数
 
-> show variables like 'slow_query%';
+> mysql> show variables like 'slow_query%';
 
-> show variables like 'long_query_time';
+> mysql> show variables like 'long_query_time';
 
 2.设置方法
 方法一：全局变量设置
