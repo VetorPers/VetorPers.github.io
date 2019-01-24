@@ -38,16 +38,18 @@ long_query_time 查询超过多少秒才记录
 > mysql>show variables like 'long_query_time';
 
 2.设置方法
+
 方法一：全局变量设置
 将 slow_query_log 全局变量设置为“ON”状态
 
 > mysql> set global slow_query_log='ON'; 
 设置慢查询日志存放的位置
 
-> mysql> set global slow_query_log_file='/usr/local/mysql/data/slow.log';
+> mysql> set global slow_query_log_file='/usr/local/mysql/var/slow.log';
 查询超过1秒就记录
 
 > mysql> set global long_query_time=1;
+
 方法二：配置文件设置
 修改配置文件my.cnf，在[mysqld]下的下方加入
 
