@@ -40,6 +40,7 @@ long_query_time 查询超过多少秒才记录
 2.设置方法
 
 方法一：全局变量设置
+
 将 slow_query_log 全局变量设置为“ON”状态
 > mysql> set global slow_query_log='ON'; 
 
