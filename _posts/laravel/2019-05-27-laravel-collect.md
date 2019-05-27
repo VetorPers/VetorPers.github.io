@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 使用 larvel-collect 包来实现收藏功能
+title: 使用 laravel-collect 包来实现收藏功能
 categories: laravel
 description: laravel collect
 keywords: laravel
