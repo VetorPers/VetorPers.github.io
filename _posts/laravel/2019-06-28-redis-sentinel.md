@@ -3,7 +3,7 @@ layout:         post
 title:          redis 哨兵模式及在 laravel 中的使用
 description:    在laravel中使用 redis 的哨兵.
 categories: laravel
-keywords: laravel ,redis
+keywords: laravel,redis
 --- 
 
 ### 主从配置(master-slave)
