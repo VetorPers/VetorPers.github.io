@@ -76,8 +76,6 @@ sentinel failover-timeout mymaster 180000 #故障转移超时时间180s：a 如�
                 'replication' => 'sentinel',
                 'service'     => env('REDIS_SENTINEL_SERVICE', 'mymaster'),    //sentinel
                 'parameters'  => [
-                    'host'     => env('REDIS_HOST', '127.0.0.1'),
-                    'port'     => env('REDIS_PORT', 6379),
                     'password' => env('REDIS_PASSWORD', null),    //redis的密码,没有时写null
                     'database' => 0,
                 ],
