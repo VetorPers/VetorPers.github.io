@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://vetor.win
+url: http://blog.vetor.top
 date_format: "ordinal"
 title: VetorPers
 subtitle: "坚持不懈"
